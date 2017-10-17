@@ -37,5 +37,8 @@ TARGET_KERNEL_CONFIG := gts210velte_defconfig
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 # inherit from the proprietary version
 -include vendor/samsung/gts210velte/BoardConfigVendor.mk
