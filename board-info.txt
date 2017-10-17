@@ -1,1 +1,0 @@
-require version-bootloader=T819XXU2BQD1|T819XXU2BQCO
