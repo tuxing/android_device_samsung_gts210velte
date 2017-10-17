@@ -22,7 +22,7 @@ DEVICE_PATH := device/samsung/gts210velte
 TARGET_OTA_ASSERT_DEVICE := gts210velte
 
 # Board
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+# TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Telephony
 BOARD_RIL_CLASS := ../../../device/samsung/gts210velte/ril
